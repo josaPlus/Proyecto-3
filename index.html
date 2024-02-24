@@ -35,13 +35,13 @@
 <body>
     <h1>Proyecto3</h1>
     <img id="imagen" src="Firefly los personajes de valorant peleando con los personajes de rainbow six siegue 39398.jpg" alt="peleando">
-    <button id="boton"><p id="cambioTexto"></p></button>
+    <button id="boton"><p id="cambioTexto">Mostrar imagen</p></button>
     <script>
         
         let boton = document.getElementById("boton");
         boton.addEventListener("click", function () {
             let imagen = document.getElementById("imagen");
-            let cambioTexto = document.getElementById("texto");
+            let cambioTexto = document.getElementById("cambioTexto");
             if (imagen.style.display === "none") {
                 imagen.style.display = "block";
                 cambioTexto.innerHTML = "Quitar imagen";
